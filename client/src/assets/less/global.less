@@ -1,0 +1,138 @@
+:root {
+    --auburn-red: #a7190b;
+    --white-yellow: #f0f0e8;
+    --brown: #31180f;
+    --brown-white: #522d1f;
+  }
+
+  /* COLOR VARIABLE */
+
+  @auburn-red: #a7190b;
+  @white-yellow: #f0f0e8;
+  @brown: #31180f;
+  @brown-white:  #522d1f;
+
+
+  @mq-1500: ~"only screen and (max-width: 1500px)";
+@mq-1350: ~"only screen and (max-width: 1350px)";
+@mq-1200-up: ~"only screen and (min-width: 1200px)";
+@mq-950-up: ~"only screen and (min-width: 950px)";
+@mq-1400: ~"only screen and (max-width: 1400px)";
+@mq-1200: ~"only screen and (max-width: 1200px)";
+@mq-1000: ~"only screen and (max-width: 1000px)";
+@mq-950: ~"only screen and (max-width: 950px)";
+@mq-800: ~"only screen and (max-width: 800px)";
+@mq-768: ~"only screen and (max-width: 768px)";
+@mq-720: ~"only screen and (max-width: 720px)";
+@mq-680: ~"only screen and (max-width: 680px)";
+@mq-600: ~"only screen and (max-width: 600px)";
+@mq-550: ~"only screen and (max-width: 550px)";
+@mq-440: ~"only screen and (max-width: 440px)";
+
+   // ==== FONTS ============
+   .roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  .rubik {
+    font-family: "Rubik", sans-serif;
+  }
+  .antic {
+    font-family: "Antic Didone", serif;
+  }
+
+  html {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 1.4;
+    height: 100%;
+  }
+
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+  }
+  #app {
+    position: relative;
+    width: 100%;
+  }
+  
+  a:hover {
+    color: var(--auburn-red);
+    transition: all 0.2s linear;
+    cursor: pointer;
+  }
+  .underline {
+      position: relative;
+      &:after {
+        position: absolute;
+        display: block;
+        margin-top: 10px;
+        max-width: 60px;
+        width: 100%;
+        content: " ";
+        height: 3px;
+      }
+      &--green {
+        &:after {
+            background-color: #5fb384;
+          }
+      }
+      &--red {
+          &:after {
+              background-color: #770e04;
+          }
+      }
+  }
+ 
+
+ 
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    font-family: "Antic Didone", serif;
+  }
+  h2 {
+    margin-bottom: 25px;
+  }
+  h3 {
+    margin-bottom: 15px;
+  }
+
+  .h {
+      &--sm {
+          font-size: 1.1rem;
+      }
+      &--md {
+          font-size: 1.3rem;
+      }
+      &--lg {
+          font-size: 1.8rem;
+      }
+      &--xl {
+          font-size: 2.3rem;
+      }
+
+      &--white {
+          color: @white-yellow;
+      }
+  }
+
+  a {
+    color: inherit;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 25px;
+  }
+

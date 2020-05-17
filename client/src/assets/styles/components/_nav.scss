@@ -1,0 +1,121 @@
+.nav {
+    position: relative;
+    z-index: 202;
+
+    
+    @include tablet {
+      transform: translateY(-100%);
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      z-index: 999;
+      background-color: #330202;
+      transition: transform 0.5s;
+      transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
+    }
+
+    &.reveal {
+        transform: translateY(0);
+        visibility: visible;
+        transition: transform 0.5s;
+        transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
+    }
+ 
+    &__list {
+        display: flex;
+        
+        @include tablet {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            max-height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    &__item {
+        @include tablet {
+          font-size: 1.3rem;
+          font-weight: 300;
+          margin-bottom: 20px;
+        }
+    }
+    
+    &__link {
+        color: $white-shade;
+        padding: 0 25px;
+        
+        &--last {
+                padding-right: 0;
+
+                @include tablet {
+                    padding-right: 25px;
+                }
+        }
+    
+        &:hover {
+            color: rgb(250, 250, 136);
+        }
+    }
+
+    &__btn {
+        position: relative;
+        z-index: 1000;
+    }
+}
+ 
+
+  
+svg {
+    display: none;
+    @include tablet {
+        display: block;
+        max-width: 60px;
+    }
+
+    @include mobile {
+        max-width: 40px;
+    }
+}
+
+
+path {
+    fill: none;
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25),
+    stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    stroke-width: 10px;
+    stroke: #fff;
+    stroke-dashoffset: 0px;
+}
+  
+#menu-btn path {
+    stroke-width: 2px;
+}
+
+#menu-btn path.top {
+    stroke-dasharray: 62px 180px;
+}
+
+#menu-btn .middle {
+    stroke-dasharray: 40px 30px;
+}
+
+#menu-btn path.bottom {
+    stroke-dasharray: 62px 180px;
+}
+
+#menu-btn path.top.cross,
+#menu-btn path.bottom.cross {
+    stroke-dashoffset: 170px;
+}
+
+#menu-btn path.middle.cross {
+    stroke-dashoffset: -115px;
+    stroke-dasharray: 1px 220px;
+}

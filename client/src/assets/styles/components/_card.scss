@@ -1,0 +1,144 @@
+.card {
+  background-color: rgb(235, 230, 230);
+  position: relative;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+  min-height: 17.5rem;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__wrapper {
+    padding: 2rem 1.5rem 2rem;
+
+    @include tablet {
+      padding: 1.25rem 1rem 1.25rem;
+    }
+
+    @include mobile {
+      padding: 1rem 1.25rem;
+    }
+  }
+
+  @include tablet {
+    min-height: 12.5rem;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 3;
+  }
+
+  &__img {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+
+    @include mobile {
+      height: 12rem;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    opacity: 0.1;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__icon {
+    color: $third-color;
+    display: block;
+    text-align: center;
+    margin-bottom: 2.5rem;
+
+    @include tablet {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__p {
+    color: $main-color;
+
+    @include mobile {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    color: $main-color;
+    position: relative;
+    margin-bottom: 35px;
+
+    &:after {
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 3.75rem;
+      height: 2px;
+      background-color: $third-color;
+      bottom: -15px;
+      left: 0;
+
+      @include mobile {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    @include mobile {
+      text-align: center;
+    }
+  }
+
+  &__secondary-title {
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+
+    @include mobile {
+      letter-spacing: 1px;
+      font-size: 1rem;
+    }
+  }
+
+  &__item {
+    margin-bottom: 0.75rem;
+
+    @include mobile {
+      font-size: 0.9rem;
+    }
+  }
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn {
+    padding: 1rem 1.5rem;
+    color: $white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+
+    @include mobile {
+      font-size: $font-sm;
+      padding: 0.6rem 1.2rem;
+    }
+
+    &--view {
+      background-color: $third-color;
+    }
+
+    &--github {
+      background-color: #d79b7d;
+    }
+  }
+
+  &__fontawesome {
+    font-size: 1.4rem;
+    margin-right: 10px;
+  }
+}

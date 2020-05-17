@@ -1,0 +1,169 @@
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "abstract/grids";
+
+// ==== FONTS ============
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+.antic {
+  font-family: "Antic Didone", serif;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 1.4;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: $font-common;
+  color: #717171;
+
+  @include mobile {
+    font-size: $font-sm;
+  }
+}
+
+#app {
+  position: relative;
+  width: 100%;
+}
+
+.underline {
+  position: relative;
+
+  &--center {
+    &:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &:after {
+    position: absolute;
+    display: block;
+    margin-top: 10px;
+    max-width: 60px;
+    width: 100%;
+    content: " ";
+    height: 2px;
+  }
+
+  &--green {
+    &:after {
+      background-color: $third-color;
+    }
+  }
+
+  &--red {
+    &:after {
+      background-color: #770e04;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: "Antic Didone", serif;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+.h {
+  &--sm {
+    font-size: 1.1rem;
+  }
+
+  &--md {
+    font-size: 1.3rem;
+  }
+
+  &--lg {
+    font-size: 1.8rem;
+  }
+
+  &--xl {
+    font-size: 2.3rem;
+  }
+
+  &--white {
+    color: yellow;
+  }
+
+  &--main {
+    color: $main-color;
+    margin-bottom: 3.5rem;
+    font-size: 2rem;
+
+    @include mobile {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 93.75rem;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #fbfbfb;
+
+  @include tablet {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.context {
+  position: relative;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}

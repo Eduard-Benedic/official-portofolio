@@ -1,0 +1,144 @@
+#icon-down {
+  position: relative;
+  top: 5px;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.hero {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+
+  background-image: url("../../assets/images/front-end-developer.jpg");
+
+  // background-image: linear-gradient(180deg, #c28f75, rgba(8, 4, 4, 0.5)),
+  //   url("../../assets/images/seaview.jpg");
+
+  // background-image: linear-gradient(180deg, #c28f75, rgba(8, 4, 4, 0.5)),
+  //   url("../../assets/images/home.jpg");
+
+  //   background-image: linear-gradient(
+  //   to bottom,
+  //   rgba(66, 28, 28, 0.8),
+  //   rgba(8, 4, 4, 0.5)
+  // ),
+  // url("../../assets/images/home.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  @include mobile {
+    min-height: 89vh;
+  }
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: slide-left 1s ease forwards;
+    transform: translate(-50%, -50%);
+    background-color: rgba(82, 113, 110, 0.61);
+    padding: 90px 25px;
+    border-radius: 3px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+
+    @include mobile {
+      max-width: 95%;
+      transform: initial;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateY(-50%);
+      padding: 50px 15px;
+      max-width: 650px;
+    }
+  }
+
+  &__title {
+    color: $white-shade;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  &__subtitle {
+    color: $white-shade;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-align: center;
+
+    @include mobile {
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__p {
+    margin-bottom: 10px;
+    color: rgb(224, 224, 224);
+  }
+
+  &__svg {
+    @include mobile {
+      max-width: 280px;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+
+    & svg#dynamic-btn,
+    & svg#dynamic-btn rect {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+      fill: #12545a;
+    }
+
+    & svg#dynamic-btn rect {
+      stroke: #fff;
+      stroke-width: 4;
+      transition: 0.5s;
+      stroke-dasharray: 500, 500;
+      stroke-dashoffset: 0;
+    }
+    &:hover svg#dynamic-btn rect {
+      stroke-dasharray: 100, 400;
+      stroke-dashoffset: 220;
+      stroke: white;
+    }
+  }
+
+  &__resume {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 1.5rem;
+    color: $white-shade;
+    background-color: #980000;
+    border-radius: 4px;
+    transition: color 0.2s linear;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    &:hover {
+      color: #fafa88;
+    }
+  }
+}

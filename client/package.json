@@ -1,0 +1,77 @@
+{
+  "name": "vue-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "amd-loader": "0.0.8",
+    "core-js": "^3.4.4",
+    "file-loader": "^6.0.0",
+    "gsap": "^3.2.5",
+    "less": "^3.10.3",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "scrollmagic": "^2.0.7",
+    "smooth-scroll": "^16.1.2",
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.10",
+    "vue-scrollmagic": "^1.2.0",
+    "vue2-smooth-scroll": "^1.2.0",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "amd": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduard-Benedic/vue-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduard-Benedic/vue-portfolio/issues"
+  },
+  "homepage": "https://github.com/Eduard-Benedic/vue-portfolio#readme"
+}
