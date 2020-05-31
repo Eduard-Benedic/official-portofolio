@@ -18,7 +18,7 @@
 import ProjectCard from "./ProjectCard";
 import colorRevealer from "../../assets/images/projects/color-revealer/flower-banner.jpg";
 import project2 from "../../assets/images/projects/project2.jpg";
-import project3 from "../../assets/images/projects/project3.jpg";
+
 
 import gsap from "gsap";
 export default {
@@ -84,27 +84,15 @@ export default {
           }
         },
         {
-          title: "Clarifai",
+          title: "Neurohypnosis",
           list: {
-            frontEnd: ["HTML5", "CSS3", "React", "Webpack"],
-            backEnd: ["Node/Express", "MongoDB", "Heroku"]
+            frontEnd: ["HTML5", "CSS3", "React", "Gatsby", "GraphQL"],
+            backEnd: ["Node/Express", "Contentful", "Heroku"]
           },
           img: project2,
           links: {
             github: "",
-            view: ""
-          }
-        },
-        {
-          title: "Technologies used",
-          list: {
-            frontEnd: ["HTML5", "CSS3", "React", "Webpack"],
-            backEnd: ["Node/Express", "MongoDB", "Heroku"]
-          },
-          img: project3,
-          links: {
-            github: "",
-            view: ""
+            view: "https://hypnosis-2773785638.gtsb.io/"
           }
         }
       ]

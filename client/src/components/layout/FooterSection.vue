@@ -70,6 +70,8 @@ export default {
       a: 0.071,
     };
 
+   
+
     let increment = wave.frequency;
     function animate() {
       requestAnimationFrame(animate);
