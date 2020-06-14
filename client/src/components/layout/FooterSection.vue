@@ -4,12 +4,12 @@
     <div class="footer__wrapper">
       <div class="footer__upper">
         <div>
-          <h3 class="footer__title underline underline--green">Contact</h3>
+          <h3 class="footer__title underline underline--second-color">Contact</h3>
           <ul class="footer__list">
             <li class="footer__item">
-              <a class="footer__link" href="mailto:benediceduard@outlook.com"
-                >benediceduard@outlook.com</a
-              >
+              <a class="footer__link" href="mailto:benediceduard@outlook.com">
+                benediceduard@outlook.com
+              </a>
             </li>
             <li class="footer__item">
               <a class="footer__link" href="tel:+7480735866">07480735866</a>
@@ -17,13 +17,10 @@
           </ul>
         </div>
         <div>
-          <h3 class="footer__title underline underline--green">Social</h3>
+          <h3 class="footer__title underline underline--second-color">Social</h3>
           <ul class="footer-social">
             <li class="footer-social__item">
-              <a
-                :href="'https://www.linkedin.com/in/eduard-benedic-94b40710b/'"
-                target="_blank"
-              >
+              <a :href="'https://www.linkedin.com/in/eduard-benedic-94b40710b/'" target="_blank">
                 <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" />
               </a>
             </li>
@@ -57,19 +54,31 @@ export default {
       frequency: 0.013,
     };
 
-    const strokeColor = {
-      h: 33,
-      s: 93,
-      l: 48,
+    // const strokeColor = {
+    //   h: 33,
+    //   s: 93,
+    //   l: 48,
+    // };
+
+    // const backgroundColor = {
+    //   r: 89,
+    //   g: 2,
+    //   b: 2,
+    //   a: 0.071,
+    // };
+
+     const strokeColor = {
+      h: 10,
+      s: 10,
+      l: 10,
     };
 
-    const backgroundColor = {
-      r: 89,
-      g: 2,
-      b: 2,
-      a: 0.071,
+ const backgroundColor = {
+      r: 75,
+      g: 138,
+      b: 142,
+      a: 0.081,
     };
-
    
 
     let increment = wave.frequency;

@@ -68,6 +68,12 @@ export default {
           icon: "sun"
         },
         {
+          title: 'SEO',
+          text: 'I write code SEO focused and possess a good understanding of the best practices.',
+          icon: 'pencil'
+        }
+        ,
+        {
           title: "Speed",
           text:
             "Speed is a top priority. I follow the best practices to boost the performance of my webpages.",

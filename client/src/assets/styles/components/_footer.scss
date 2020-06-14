@@ -29,16 +29,24 @@
 
   &__title {
     margin-bottom: 35px;
+    letter-spacing: 4px;
   }
 
   &__lower {
     text-align: center;
     padding-top: 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
   }
 
   &__item {
     padding-bottom: 15px;
   }
+
+  &__link {
+    letter-spacing: 5px;
+  }
+
   & li:first-child {
     margin-right: 20px;
   }

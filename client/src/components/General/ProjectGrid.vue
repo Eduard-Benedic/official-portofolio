@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="section">
     <div class="wrapper">
-      <h2 class="h h--main underline underline--main-color">Projects</h2>
+      <h2 class="h h--main underline underline--main-color">Individual Projects</h2>
       <div class="grid-33 gap-4">
         <project-card
           v-for="(project,index) in projectArr"
@@ -86,8 +86,8 @@ export default {
         {
           title: "Neurohypnosis",
           list: {
-            frontEnd: ["HTML5", "CSS3", "React", "Gatsby", "GraphQL"],
-            backEnd: ["Node/Express", "Contentful", "Heroku"]
+            frontEnd: ["HTML5", "CSS3", "React", "Gatsby" ],
+            backEnd: ["Contentful", "GraphQL", "Heroku"]
           },
           img: project2,
           links: {

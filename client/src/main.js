@@ -7,11 +7,11 @@ import vueSmoothScroll from 'vue2-smooth-scroll';
 
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSun, faBolt, faBook, faEye, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faSun, faBolt, faBook, faEye, faChevronDown, faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 
-library.add(faLinkedin, faSun, faBolt, faBook, faEye, faGithub, faEye, faChevronDown);
+library.add(faLinkedin, faSun, faBolt, faBook, faEye, faGithub, faEye, faChevronDown, faPencilAlt);
 
 
 

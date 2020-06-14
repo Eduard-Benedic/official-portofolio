@@ -15,6 +15,7 @@
       <div>
         <h3>Backend Skills</h3> 
         <p>Node/Express</p>
+        <p>REST API</p>
         <p>MongoDB</p>
         <p>GraphQL</p>
       </div>

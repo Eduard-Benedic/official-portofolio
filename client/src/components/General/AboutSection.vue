@@ -7,8 +7,10 @@
         <div class="about__info">
           <h2 class="h underline underline--main-color underline--center">My background</h2>
           <p class="about__p">I am a Front-End Developer for Netrix in London.</p>
-          <p>Even though I am working as a Front-end I like to fully understand an industry so not long after I felt comfortable with the Front-end
-             I wanted to know how everything fits together and I started diving into Back-End development and databases</p>
+          <p> I gained rich experience from my current workplace as I was in charge of many activities (from dealing with every aspect of front-end development to writing HTML emails and dealing with customers).
+              I used JavaScript intensively during both my professional life and leisure time.</p>
+          <p>Even though I am working as a Front-end I wanted to fully understand the web so not long after I felt comfortable enough with the Front-end side of things
+             I wanted to know how everything fits together and I started diving into Back-End development (Node) and databases (MongoDB mainly)</p>
           <p class="about__p">I am an avid learner and willing to constantly take my skills to the next level</p>
           <p class="about__p">Looking forward to hearing from you!</p>
         </div>

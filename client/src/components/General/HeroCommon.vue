@@ -1,11 +1,11 @@
 <template>
   <section id="hero" class="hero">
     <div class="hero__content">
-      <h1 class="hero__title">Full-stack Developer with professional experience in Front-end</h1>
+      <h1 class="hero__title">Full-stack Developer with professional experience in Front-end Development</h1>
       <h2 class="hero__subtitle">Eduard Benedic</h2>
       <a
         v-smooth-scroll="{ duration: 1000, offset: -50, updateHistory: false }"
-        href="#boxes"
+        href="#soft-skills"
         class="hero__btn"
       >
         <svg id="dynamic-btn">
