@@ -1,8 +1,10 @@
 <template>
   <section id="projects" class="section">
     <div class="wrapper">
+      <h3>Due to my company's policy I was not granted the permission to display some of the projects completed at my workplace</h3>
+      <h3>If you wish to know more about them please get in touch</h3>
       <h2 class="h h--main underline underline--main-color">Individual Projects</h2>
-      <div class="grid-33 gap-4">
+      <div class="grid-33 gap-6">
         <project-card
           v-for="(project,index) in projectArr"
           v-bind:projectData="project"

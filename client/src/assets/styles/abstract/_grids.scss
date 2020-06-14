@@ -54,3 +54,15 @@
 .gap-4 {
   grid-gap: 2rem;
 }
+
+.gap-5 {
+  grid-gap: 4rem;
+}
+
+.gap-6 {
+  grid-gap: 6rem;
+
+  @include mobile {
+    grid-gap: 2rem;
+  }
+}
