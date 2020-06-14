@@ -24,9 +24,9 @@
       </ul>
     </div>
     <div class="card__action">
-      <a href="/" class="card__btn card__btn--view">
+      <!-- <a href="/" class="card__btn card__btn--view">
         <font-awesome-icon :icon="['fab', 'github']" class="card__fontawesome" />View source code
-      </a>
+      </a> -->
       <a :href="projectData.links.view" target="_blank" class="card__btn card__btn--github">
         <font-awesome-icon :icon="['fa', 'eye']" class="card__fontawesome" />View project
       </a>

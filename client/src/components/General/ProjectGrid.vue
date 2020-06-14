@@ -88,13 +88,13 @@ export default {
         {
           title: "Neurohypnosis",
           list: {
-            frontEnd: ["HTML5", "CSS3", "React", "Gatsby" ],
-            backEnd: ["Contentful", "GraphQL", "Heroku"]
+            frontEnd: ["HTML5", "CSS3", "React", "Gatsby"],
+            backEnd: ["Gatsby", "Contentful", "GraphQL", "Heroku"]
           },
           img: project2,
           links: {
             github: "",
-            view: "https://hypnosis-2773785638.gtsb.io/"
+            view: "https://build-c9199be1-2158-4e8a-b135-a33bd8403867.gtsb.io/"
           }
         }
       ]
