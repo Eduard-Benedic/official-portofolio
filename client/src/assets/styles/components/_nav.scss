@@ -11,7 +11,7 @@
       height: 100vh;
       width: 100%;
       z-index: 999;
-      background-color: #b270ae;
+      background-color: $second-color;
       transition: transform 0.5s;
       transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
     }
