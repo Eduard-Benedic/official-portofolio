@@ -11,7 +11,7 @@
               I used JavaScript intensively during both my professional life and leisure time.</p>
           <p>Even though I am currently working as a Front-end developer I wanted to fully understand how everyting fits together so not long after I felt comfortable enough with the front-end side of things
             I started diving into Back-End development and databases</p>
-          <p class="about__p">I am an avid learner and willing to constantly take my skills to the next level</p>
+          <p class="about__p">I am an avid learner and willing to constantly learn and take my skills to the next level</p>
           <p class="about__p">Looking forward to hearing from you!</p>
         </div>
       </div>
