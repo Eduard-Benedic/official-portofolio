@@ -44,12 +44,13 @@
           font-size: 1.3rem;
           font-weight: 300;
           margin-bottom: 20px;
-        }
+        }   
     }
     
     &__link {
         color: $white-shade;
-        padding: 0 25px;
+        padding-right: 1.5rem;
+        letter-spacing: 3px;
         
         &--last {
                 padding-right: 0;

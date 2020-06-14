@@ -13,15 +13,15 @@
           <a
             class="nav__link"
             v-smooth-scroll="{ duration: 1000, offset: -50,  updateHistory: false }"
-            href="#boxes"
-          >Guidelines</a>
+            href="#soft-skills"
+          >Soft Skills</a>
         </li>
         <li class="nav__item">
           <a
             class="nav__link"
             v-smooth-scroll="{ duration: 1000, offset: -50,  updateHistory: false }"
             href="#skills"
-          >Skills</a>
+          >Hard Skills</a>
         </li>
         <li class="nav__item">
           <a

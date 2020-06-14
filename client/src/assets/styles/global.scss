@@ -68,15 +68,15 @@ p {
     height: 2px;
   }
 
-  &--green {
+  &--main-color {
     &:after {
-      background-color: $third-color;
+      background-color: $main-color;
     }
   }
 
-  &--red {
+  &--second-color {
     &:after {
-      background-color: #770e04;
+      background-color: $second-color;
     }
   }
 }
@@ -123,7 +123,7 @@ h4 {
   }
 
   &--main {
-    color: $main-color;
+    color: rgb(41, 40, 40);
     margin-bottom: 3.5rem;
     font-size: 2rem;
 
@@ -142,13 +142,13 @@ h4 {
 }
 
 .section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #fbfbfb;
 
   @include tablet {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -166,4 +166,19 @@ h4 {
 
 .text-left {
   text-align: left;
+}
+
+
+.container {
+  max-width: 93.75rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.container-md {
+  max-width: 73.75rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }

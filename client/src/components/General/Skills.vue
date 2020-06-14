@@ -1,7 +1,32 @@
 <template>
-  <section id="skills" class="section">
-    <div class="wrapper">
-      <h2 class="h h--main underline underline--green">Main Skills</h2>
+  <section id="skills" >
+    <div class="wrapper  container-md">
+      <h2 class="h h--main underline underline--main-color">Main Skills</h2>
+    </div>
+    <div class="grid grid-33 gap-4 container-md">
+      <div>
+        <h3>Frontend Skills</h3>
+        <p>HTML 5</p>
+        <p>CSS - Tailwindcss, Less, Sass</p>
+        <p>JavaScript - ES5/ES6</p>
+        <p>jQuery</p>
+        <p>Frameworks: React, Vue (Routing, Store etc), </p>
+      </div>
+      <div>
+        <h3>Backend Skills</h3> 
+        <p>Node/Express</p>
+        <p>MongoDB</p>
+        <p>GraphQL</p>
+      </div>
+      <div>
+        <h3>Headless CMS</h3>
+        <p>Contenful</p>
+        <p>Strapi</p>
+        <h3>Other tools and technologies</h3>
+        <p>Gatsby</p>
+        <p>Webpack</p>
+      </div>
+        
     </div>
     <div class="context">
       <div class="img-grid">
@@ -58,6 +83,7 @@ export default {
     };
   },
   mounted() {
+      
     function intRange(min, max) {
       return Math.floor(Math.random() * (max - min + 1) + min);
     }
@@ -174,7 +200,13 @@ export default {
         }
       }
     }
-    init();
+
+    if(window.innerWidth > 600) {
+        init();
+    } else {
+      return;
+    }
+   
   }
 };
 </script>
@@ -184,6 +216,10 @@ export default {
 <style scoped lang="scss">
 #canvas {
   background-color: rgb(177, 177, 177);
+
+  @include tablet{
+    display: none;
+  }
 }
 .img-grid {
   display: grid;
@@ -200,11 +236,13 @@ export default {
   grid-gap: 5rem;
   margin: 0 auto;
   padding: 0 25px;
+  
 
   @include tablet {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     padding: 0 25px;
+    position: static;
   }
 
   &__img {

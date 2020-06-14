@@ -5,17 +5,12 @@
         <h2 class="about__h h h--main">About me</h2>
         <img v-bind:src="imgLink" alt="Profile Picture" class="about__img" />
         <div class="about__info">
-          <h2 class="h underline underline--green underline--center">My background</h2>
+          <h2 class="h underline underline--main-color underline--center">My background</h2>
           <p class="about__p">I am a Front-End Developer for Netrix in London.</p>
-          <p
-            class="about__p"
-          >After pursuing a 2 years degree in Biochemical engineering and finishing a BSc in Human Nutrition, I realised that coding is what I want to do.</p>
-
-          <p
-            class="about__p"
-          >I found my passion for coding a few years ago and ever since then I've been working on improving the performance and the visual quality of websites.</p>
-          <p>Even though I work as a front-end developer I enjoy everything about the web and after a while I decided to get into backend side of things. My first project in the list "Color-reveler" partially reflects my backend skills</p>
-          <p class="about__p">Feel free to get in touch, I have a great story to tell.</p>
+          <p>Even though I am working as a Front-end I like to fully understand an industry so not long after I felt comfortable with the Front-end
+             I wanted to know how everything fits together and I started diving into Back-End development and databases</p>
+          <p class="about__p">I am an avid learner and willing to constantly take my skills to the next level</p>
+          <p class="about__p">Looking forward to hearing from you!</p>
         </div>
       </div>
     </div>
@@ -83,9 +78,11 @@ export default {
   opacity: 0;
 
   &__img {
-    max-width: 40rem;
+   width: 18rem;
+   height: 18rem;
+   border-radius: 50%;
     margin: 0 auto;
-    width: 100%;
+    /* width: 100%; */
     clip-path: polygon(
       calc(0% + 90px) 0%,
       calc(100% - 90px) 0%,

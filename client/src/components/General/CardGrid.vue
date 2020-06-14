@@ -1,7 +1,7 @@
 <template>
-  <section id="boxes">
-    <h2 class="h h--main underline underline--green">Guidelines</h2>
-    <div class="grid-25 gap-4">
+  <section id="soft-skills">
+    <h2 class="h h--main underline underline--main-color">Soft Skills</h2>
+    <div class="grid-33 gap-4">
       <card-item v-for="(card,index) in cardArr" v-bind:key="index" :cardData="card" />
     </div>
   </section>
@@ -17,14 +17,14 @@ export default {
     CardItem
   },
   mounted() {
-    const cards = document.querySelector("#boxes");
+    const cards = document.querySelector("#soft-skills");
     const cardsHeight = cards.getBoundingClientRect().height;
     const cardsTop = cards.getBoundingClientRect().top;
 
     function revealCards() {
       if (window.scrollY + cardsHeight > cardsTop + cardsHeight / 4) {
         gsap.fromTo(
-          "#boxes .grid-25 .card,#boxes > h2",
+          "#soft-skills .grid-33 .card,#boxes > h2",
           {
             x: 900,
             opacity: 0
@@ -94,7 +94,7 @@ export default {
 
 
 <style scoped lang="scss">
-#boxes {
+#soft-skills {
   padding: 5rem 1rem 5rem;
   position: relative;
   margin-bottom: 50px;
