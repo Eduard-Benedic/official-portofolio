@@ -68,20 +68,27 @@ export default {
           icon: "sun"
         },
         {
+          title: "Responsive",
+          text:
+            "I create websites well optimized for mobile and common devices.",
+          background: true,
+          icon: "mobile"
+        },
+        {
           title: 'SEO',
-          text: 'I write code SEO focused and possess a good understanding of the best practices.',
+          text: 'I possess a good understanding of the best SEO practices and guidelines.',
           icon: 'pencil'
         }
         ,
         {
           title: "Speed",
           text:
-            "Speed is a top priority. I follow the best practices to boost the performance of my webpages.",
+            "I write code that is fast and optimized.",
           icon: "bolt"
         },
         {
           title: "Up to date",
-          text: "I am constanly learning and improve my skills.",
+          text: "I am constanly learning and improving my skills.",
           icon: "book"
         },
         {

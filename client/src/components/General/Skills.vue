@@ -3,7 +3,7 @@
     <div class="wrapper  container-md">
       <h2 class="h h--main underline underline--main-color">Main Skills</h2>
     </div>
-    <div class="grid grid-33 gap-4 container-md">
+    <div class="grid grid-33 gap-3 container-md">
       <div>
         <h3>Frontend Skills</h3>
         <p>HTML 5</p>
