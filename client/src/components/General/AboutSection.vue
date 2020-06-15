@@ -24,7 +24,7 @@ export default {
   name: "AboutSection",
   data() {
     return {
-      imgLink: require("../../assets/images/new-profile.jpg").default
+      imgLink: require("../../assets/images/about-picture.jpg").default
     };
   },
   mounted() {
