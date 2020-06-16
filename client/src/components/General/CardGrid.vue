@@ -75,7 +75,7 @@ export default {
         },
         {
           title: 'SEO',
-          text: 'No matter how great the website, your users can\'t enjoy it unless it is visible. I understand the importance of SEO optimization for ranking and visibility.',
+          text: 'No matter how great the website, your users can\'t enjoy it unless it is visible. I understand the importance of SEO for ranking and visibility.',
           icon: 'pencil'
         },
         {
@@ -86,7 +86,7 @@ export default {
         },
         {
           title: "Technology",
-          text: "I keep up with the latest trends and technologies in the field for a better optimization.",
+          text: "I keep up with the latest trends in tech and digital landscape for a better optimization.",
           icon: "book"
         },
         {
