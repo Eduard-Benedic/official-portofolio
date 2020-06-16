@@ -1,8 +1,8 @@
 <template>
   <section id="projects" class="section">
     <div class="wrapper">
-      <h3>Due to my company's policy, I presented only a few of my side projects. </h3>
-      <h3>If you are interested to see more please feel free to get in touch.</h3>
+      <p>Due to my company's policy, I presented only a few of my side projects. </p>
+      <p>If you are interested is seeing more please feel free to get in touch.</p>
       <h2 class="h h--main underline underline--main-color">Individual Projects</h2>
       <div class="grid-33 gap-6">
         <project-card
