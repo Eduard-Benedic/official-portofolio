@@ -9,7 +9,7 @@
           <p class="about__p">I am a Front-End Developer for the Netrix company in London.</p>
           <p> I gained rich experience from my current workplace as I was in charge of many activities (from dealing with every aspect of the front-end development to writing HTML emails and dealing with customers).
               I used JavaScript intensively during both my professional life and leisure time.</p>
-          <p>Even though I am currently working as a Front-end developer, I am currently developing my knowledge of the back-end development and databases</p>
+          <p>Even though I am  working as a Front-end developer, I am currently developing my knowledge of the back-end development and databases</p>
           <p class="about__p">I am an avid learner and willing to constantly learn and take my skills to the next level</p>
           <p class="about__p">Looking forward to hearing from you!</p>
         </div>
