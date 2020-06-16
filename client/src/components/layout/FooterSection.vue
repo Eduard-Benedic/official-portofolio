@@ -45,7 +45,7 @@ export default {
     const c = canvas.getContext("2d");
 
     canvas.width = innerWidth;
-    canvas.height = 300;
+    canvas.height = 240;
 
     const wave = {
       y: canvas.height / 2,
