@@ -80,19 +80,20 @@ export default {
   opacity: 0;
 
   &__img {
-   width: 18rem;
+   /* width: 18rem; */
    height: 18rem;
+
    border-radius: 50%;
-    margin: 0 auto;
-    /* width: 100%; */
-    clip-path: polygon(
+  margin: 0 auto;
+  /* width: 100%;  */
+     /* clip-path: polygon(
       calc(0% + 90px) 0%,
       calc(100% - 90px) 0%,
       100% 50%,
       calc(100% - 90px) 100%,
       calc(0% + 90px) 100%,
       0% 50%
-    );
+    );  */
 
     @include mobile {
       clip-path: polygon(
