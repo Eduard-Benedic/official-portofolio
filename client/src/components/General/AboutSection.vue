@@ -6,11 +6,10 @@
         <img v-bind:src="imgLink" alt="Profile Picture" class="about__img" />
         <div class="about__info">
           <h2 class="h underline underline--main-color underline--center">My background</h2>
-          <p class="about__p">I am a Front-End Developer for Netrix in London.</p>
+          <p class="about__p">I am a Front-End Developer for the Netrix company in London.</p>
           <p> I gained rich experience from my current workplace as I was in charge of many activities (from dealing with every aspect of the front-end development to writing HTML emails and dealing with customers).
               I used JavaScript intensively during both my professional life and leisure time.</p>
-          <p>Even though I am currently working as a Front-end developer I wanted to fully understand how everyting fits together so not long after I felt comfortable enough with the front-end side of things
-            I started diving into Back-End development and databases</p>
+          <p>Even though I am currently working as a Front-end developer, I am currently developing my knowledge of the back-end development and databases</p>
           <p class="about__p">I am an avid learner and willing to constantly learn and take my skills to the next level</p>
           <p class="about__p">Looking forward to hearing from you!</p>
         </div>
@@ -80,30 +79,12 @@ export default {
   opacity: 0;
 
   &__img {
-   /* width: 18rem; */
-   height: 18rem;
-
-   border-radius: 50%;
+  height: 16rem;
   margin: 0 auto;
-  /* width: 100%;  */
-     /* clip-path: polygon(
-      calc(0% + 90px) 0%,
-      calc(100% - 90px) 0%,
-      100% 50%,
-      calc(100% - 90px) 100%,
-      calc(0% + 90px) 100%,
-      0% 50%
-    );  */
+
 
     @include mobile {
-      clip-path: polygon(
-        calc(0% + 40px) 0%,
-        calc(100% - 40px) 0%,
-        100% 50%,
-        calc(100% - 40px) 100%,
-        calc(0% + 40px) 100%,
-        0% 50%
-      );
+      width: 100%;
     }
     margin-bottom: 30px;
     filter: drop-shadow(-1px 6px 3px rgba(050, 50, 0, 0.5));
