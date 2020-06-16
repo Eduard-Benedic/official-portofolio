@@ -1,6 +1,12 @@
 const path = require("path");
 
 module.exports = {
+  //   transpileDependencies: [
+  //     // can be string or regex
+  //     'my-dep',
+  //     /other-dep/
+  //   ]
+  // ,
   outputDir: path.resolve(__dirname, "../server/public"),
   chainWebpack: (config) => {
     config.module

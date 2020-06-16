@@ -66,7 +66,7 @@ export default {
     //   b: 2,
     //   a: 0.071,
     // };
-
+//Due to my company's policy, I presented only a few of my side projects.
      const strokeColor = {
       h: 10,
       s: 10,

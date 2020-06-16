@@ -1,6 +1,6 @@
 <template>
   <section id="soft-skills">
-    <h2 class="h h--main underline underline--main-color">Soft Skills</h2>
+    <h2 class="h h--main underline underline--main-color">Website optimization</h2>
     <div class="grid-33 gap-4">
       <card-item v-for="(card,index) in cardArr" v-bind:key="index" :cardData="card" />
     </div>
@@ -63,37 +63,35 @@ export default {
         {
           title: "Dinamism",
           text:
-            "Animations are what gives life to a webpage and are a part of my design.",
+            "I use animations to give color and dinamism to webpages to keep the users engaged throughout their web journey.",
           background: true,
           icon: "sun"
         },
         {
           title: "Responsive",
-          text:
-            "I create websites well optimized for mobile and common devices.",
+          text: "My websites are well crafted to work smoothly on every device: mobile, tablet and desktop responsive.",
           background: true,
           icon: "mobile"
         },
         {
           title: 'SEO',
-          text: 'I possess a good understanding of the best SEO practices and guidelines.',
+          text: 'No matter how great the website, your users can\'t enjoy it unless it is visible. I understand the importance of SEO optimization for ranking and visibility.',
           icon: 'pencil'
-        }
-        ,
+        },
         {
           title: "Speed",
           text:
-            "I write code that is fast and optimized.",
+            "Knowing that your users are more likely to leave a webpage if the loading time exceeds 2 seconds, speed becomes a top priority. I write code that performs fast.",
           icon: "bolt"
         },
         {
-          title: "Up to date",
-          text: "I am constanly learning and improving my skills.",
+          title: "Technology",
+          text: "I keep up with the latest trends and technologies in the field for a better optimization.",
           icon: "book"
         },
         {
-          title: "Attention to detail",
-          text: "The angel's in the details.",
+          title: "Organization",
+          text: "The structure of my code is well organized for scaling.",
           background: true,
           icon: "eye"
         }
